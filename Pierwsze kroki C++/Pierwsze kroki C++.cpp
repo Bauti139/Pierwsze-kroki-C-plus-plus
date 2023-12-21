@@ -3,14 +3,17 @@
 
 #include <iostream>
 using namespace std;
-/*int add(int a, int b)
+/*
+int add(int a, int b)
 {
     a = a + b;
     return a;
-}*/
+}
+*/
 int main()
 {
-    /*int a;
+    /*
+    int a;
     int b;
     double c = 2.5;
     cout << "Please enter number for a" << endl;
@@ -19,10 +22,28 @@ int main()
     cin >> b;
     double i[] = { 190, 2, 3, a, b, c };
     cout << add(a, b) << endl;
-    cout << i[5];*/
+    cout << i[5];
+    */
     int a = 2;
+    a += 2;
     int b = 3;
     cout << a / b << endl;
+    cout << ++a << endl;
+    cout << a++ << endl;
+    cout << a << endl;
+    if (a % 2) {
+        cout << "This isn't a even number" << endl;
+    }
+    else {
+        cout << "This is a even number" << endl;
+    }
+    cout << a << endl <<  b << endl;
+    if (bool result = (a == b)) {
+        cout << "This numbers are the same" << endl;
+    }
+    else {
+        cout << "This numbers are not the same" << endl;
+    }
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
